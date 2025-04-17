@@ -1,4 +1,5 @@
 import "./App.css";
+import Archievements from "./components/Archievements";
 import Client from "./components/Client";
 import Comunity from "./components/Comunity";
 import Header from "./components/Header";
@@ -13,8 +14,9 @@ function App() {
 				<Hero />
 				<Client />
 				<Comunity />
-				<div className="flex flex-col gap-[48px]">
+				<div className="flex w-screen flex-col gap-[48px]">
 					<Unlock />
+					<Archievements />
 				</div>
 			</main>
 		</>

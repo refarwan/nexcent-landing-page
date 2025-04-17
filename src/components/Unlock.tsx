@@ -1,12 +1,12 @@
 const Unlock = () => {
 	return (
-		<div className="flex flex-col items-center px-[16px] py-[24px] sm:flex-row sm:gap-[40px] sm:px-0 sm:py-0">
+		<div className="m-auto flex flex-col items-center px-[16px] py-[24px] sm:flex-row sm:gap-[40px] sm:px-0 sm:py-0 xl:w-max">
 			<img
 				src="mobile-login.svg"
 				alt="mobile login llustration"
-				className="w-[200px] sm:w-[442px]"
+				className="w-[200px] sm:w-[300px] xl:w-[442px]"
 			/>
-			<div className="flex flex-col gap-[20px] sm:w-[500px] xl:w-[661px]">
+			<div className="flex flex-col gap-[20px] sm:w-[400px] xl:w-[661px]">
 				<div className="flex flex-col gap-[10px]">
 					<h2>The unseen of spending three years at Pixelgrade</h2>
 					<p className="body-3">
