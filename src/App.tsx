@@ -3,6 +3,7 @@ import Client from "./components/Client";
 import Comunity from "./components/Comunity";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Unlock from "./components/Unlock";
 
 function App() {
 	return (
@@ -12,6 +13,9 @@ function App() {
 				<Hero />
 				<Client />
 				<Comunity />
+				<div className="flex flex-col gap-[48px]">
+					<Unlock />
+				</div>
 			</main>
 		</>
 	);

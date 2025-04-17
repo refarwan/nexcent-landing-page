@@ -30,13 +30,17 @@
 	--shadow-3xl: 0 2px 4px rgba(171, 190, 209, 0.2);
 }
 
-@layer theme {
+@layer base {
 	body {
 		@apply font-inter;
 	}
 
 	a {
 		@apply outline-none;
+	}
+
+	h2 {
+		@apply text-d-grey text-[36px] leading-[44px] font-semibold;
 	}
 }
 
@@ -67,5 +71,9 @@
 
 	.small-button {
 		@apply h-[32px] px-[24px];
+	}
+
+	.body-3 {
+		@apply text-grey text-[14px] leading-[20px];
 	}
 }
