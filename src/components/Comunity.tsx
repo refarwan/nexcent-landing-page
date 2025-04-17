@@ -10,7 +10,7 @@ const Comunity = () => {
 				</span>
 			</div>
 			<div className="flex w-full max-w-[1200px] flex-wrap px-[16px] sm:justify-center sm:gap-[30px] xl:justify-between xl:px-0">
-				<div className="shadow-3xl flex w-[299px] flex-col items-center gap-[8px] rounded-[8px] py-[24px]">
+				<div className="shadow-comunity flex w-[299px] flex-col items-center gap-[8px] rounded-[8px] py-[24px]">
 					<div className="flex flex-col gap-[16px]">
 						<img
 							src="communities-icon/organization.svg"
@@ -24,7 +24,7 @@ const Comunity = () => {
 						membership renewals and payments
 					</p>
 				</div>
-				<div className="shadow-3xl flex w-[299px] flex-col items-center gap-[8px] rounded-[8px] py-[24px]">
+				<div className="shadow-comunity flex w-[299px] flex-col items-center gap-[8px] rounded-[8px] py-[24px]">
 					<div className="flex flex-col gap-[16px]">
 						<img
 							src="communities-icon/association.svg"
@@ -38,7 +38,7 @@ const Comunity = () => {
 						membership renewals and payments
 					</p>
 				</div>
-				<div className="shadow-3xl flex w-[299px] flex-col items-center gap-[8px] rounded-[8px] py-[24px]">
+				<div className="shadow-comunity flex w-[299px] flex-col items-center gap-[8px] rounded-[8px] py-[24px]">
 					<div className="flex flex-col gap-[16px]">
 						<img
 							src="communities-icon/group.svg"

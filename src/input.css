@@ -27,7 +27,8 @@
 	--color-success: #2e7d31;
 
 	--font-inter: "Inter", sans-serif;
-	--shadow-3xl: 0 2px 4px rgba(171, 190, 209, 0.2);
+	--shadow-comunity: 0 2px 4px rgba(171, 190, 209, 0.2);
+	--shadow-8px: 0 16px 8px rgba(171, 190, 209, 0.4);
 }
 
 @layer base {

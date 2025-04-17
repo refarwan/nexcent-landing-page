@@ -7,6 +7,7 @@ import Customers from "./components/Cunstomers";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Unlock from "./components/Unlock";
+import Update from "./components/Update";
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 					<Archievements />
 					<Calender />
 					<Customers />
+					<Update />
 				</div>
 			</main>
 		</>
