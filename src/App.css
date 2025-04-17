@@ -280,11 +280,17 @@
   .w-\[657px\] {
     width: 657px;
   }
+  .w-\[1200px\] {
+    width: 1200px;
+  }
   .w-full {
     width: 100%;
   }
   .w-screen {
     width: 100vw;
+  }
+  .max-w-\[1200px\] {
+    max-width: 1200px;
   }
   .max-w-\[1440px\] {
     max-width: 1440px;
@@ -332,6 +338,9 @@
   .flex-col {
     flex-direction: column;
   }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
   .items-center {
     align-items: center;
   }
@@ -350,8 +359,14 @@
   .gap-\[16px\] {
     gap: 16px;
   }
+  .gap-\[30px\] {
+    gap: 30px;
+  }
   .gap-\[32px\] {
     gap: 32px;
+  }
+  .gap-\[40px\] {
+    gap: 40px;
   }
   .gap-\[50px\] {
     gap: 50px;
@@ -402,6 +417,9 @@
   .px-\[8px\] {
     padding-inline: 8px;
   }
+  .px-\[10px\] {
+    padding-inline: 10px;
+  }
   .px-\[16px\] {
     padding-inline: 16px;
   }
@@ -425,6 +443,9 @@
   }
   .text-\[32px\] {
     font-size: 32px;
+  }
+  .text-\[36px\] {
+    font-size: 36px;
   }
   .text-\[42px\] {
     font-size: 42px;
@@ -602,6 +623,11 @@
       align-items: flex-start;
     }
   }
+  .sm\:justify-between {
+    @media (width >= 40rem) {
+      justify-content: space-between;
+    }
+  }
   .sm\:justify-start {
     @media (width >= 40rem) {
       justify-content: flex-start;
@@ -615,6 +641,11 @@
   .sm\:gap-\[50px\] {
     @media (width >= 40rem) {
       gap: 50px;
+    }
+  }
+  .sm\:px-0 {
+    @media (width >= 40rem) {
+      padding-inline: calc(var(--spacing) * 0);
     }
   }
   .sm\:px-\[10px\] {
@@ -635,6 +666,11 @@
   .sm\:px-\[50px\] {
     @media (width >= 40rem) {
       padding-inline: 50px;
+    }
+  }
+  .sm\:px-\[100px\] {
+    @media (width >= 40rem) {
+      padding-inline: 100px;
     }
   }
   .sm\:pb-0 {
