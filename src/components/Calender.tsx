@@ -7,7 +7,7 @@ const Calender = () => {
 				className="m-auto w-[200px] sm:w-[300px] xl:w-[441px]"
 			/>
 			<div className="flex flex-col gap-[32px] xl:w-[661px]">
-				<div className="w-[601px]">
+				<div className="xl:w-[601px]">
 					<h2>How to design your site footer like we did</h2>
 					<p className="body-3">
 						Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,

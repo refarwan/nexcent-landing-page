@@ -50,6 +50,10 @@
 	h3 {
 		@apply text-d-grey text-[28px] leading-[36px] font-bold;
 	}
+
+	h4 {
+		@apply text-primary text-[20px] leading-[28px] font-semibold;
+	}
 }
 
 @layer components {
@@ -87,5 +91,9 @@
 
 	.body-3 {
 		@apply text-grey text-[14px] leading-[20px];
+	}
+
+	.link {
+		@apply focus:border-l-grey disabled:text-grey-blue block hover:underline focus:rounded-[2px] focus:border focus:underline active:border-0;
 	}
 }

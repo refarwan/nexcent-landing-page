@@ -3,6 +3,7 @@ import Archievements from "./components/Archievements";
 import Calender from "./components/Calender";
 import Client from "./components/Client";
 import Comunity from "./components/Comunity";
+import Customers from "./components/Cunstomers";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Unlock from "./components/Unlock";
@@ -19,6 +20,7 @@ function App() {
 					<Unlock />
 					<Archievements />
 					<Calender />
+					<Customers />
 				</div>
 			</main>
 		</>
