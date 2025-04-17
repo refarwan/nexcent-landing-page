@@ -2,10 +2,10 @@ const Client = () => {
 	return (
 		<div className="flex w-full max-w-[1200px] flex-col gap-[16px] px-[16px] sm:px-[100px] xl:px-0">
 			<div className="flex flex-col gap-[8px]">
-				<span className="text-d-grey text-center text-[36px] font-semibold">
+				<span className="text-d-grey text-center text-[36px] leading-[44px] font-semibold">
 					Our Clients
 				</span>
-				<span className="text-grey text-center">
+				<span className="text-grey text-center leading-[24px]">
 					We have been working with some Fortune 500+ clients
 				</span>
 			</div>
