@@ -46,7 +46,7 @@ const Hero = () => {
 									Lessons and insights{" "}
 									<span className="text-primary">from 8 years</span>
 								</span>
-								<span className="text-grey text-center sm:text-left">
+								<span className="body-2 text-center sm:text-left">
 									Where to grow your business as a photographer: site or social
 									media?
 								</span>

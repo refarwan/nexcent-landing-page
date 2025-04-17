@@ -39,8 +39,16 @@
 		@apply outline-none;
 	}
 
+	h1 {
+		@apply text-d-grey text-[64px] leading-[76px] font-semibold;
+	}
+
 	h2 {
 		@apply text-d-grey text-[36px] leading-[44px] font-semibold;
+	}
+
+	h3 {
+		@apply text-d-grey text-[28px] leading-[36px] font-bold;
 	}
 }
 
@@ -71,6 +79,10 @@
 
 	.small-button {
 		@apply h-[32px] px-[24px];
+	}
+
+	.body-2 {
+		@apply text-grey text-[16px] leading-[24px];
 	}
 
 	.body-3 {
