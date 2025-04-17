@@ -9,7 +9,7 @@
 	--color-grey-blue: #abbed1;
 	--color-silver: #f5f7fa;
 	--color-white: #ffffff;
-	--color-primary: #28cb8b;
+	--color-primary: #4caf4f;
 	--color-secondary: #263238;
 	--color-info: #2194f3;
 	--color-shade-1: #43a046;
@@ -32,5 +32,39 @@
 @layer theme {
 	body {
 		@apply font-inter;
+	}
+
+	a {
+		@apply outline-none;
+	}
+}
+
+@layer components {
+	.button {
+		@apply disabled:text-grey-blue disabled:bg-silver disabled:border-silver focus:border-d-grey flex gap-8 border-2 outline-none;
+	}
+
+	.primary-button {
+		@apply bg-primary active:bg-shade-2 border-primary active:border-shade-2 text-white;
+	}
+
+	.secondary-button {
+		@apply border-primary text-primary hover:bg-silver focus:bg-silver active:border-silver bg-white;
+	}
+
+	.tertiary-button {
+		@apply text-primary hover:bg-silver hover:border-silver active:bg-tint-5 active:border-tint-5 border-white bg-white;
+	}
+
+	.normal-button {
+		@apply h-[56px] px-[32px];
+	}
+
+	.medium-button {
+		@apply h-[48px] px-[32px];
+	}
+
+	.small-button {
+		@apply h-[32px] px-[24px];
 	}
 }
