@@ -34,13 +34,14 @@ const Update = () => {
 				</div>
 				<div className="relative h-[300px] w-[300px] xl:h-[366px] xl:w-[368px]">
 					<img
-						src="/update/image-1.png"
+						src="/update/image-2.png"
 						alt="woman with laptop"
 						className="w-full rounded-[8px] xl:h-[286px] xl:w-[368px]"
 					/>
 					<div className="bg-silver shadow-8px absolute bottom-0 left-[25px] flex w-[250px] flex-col gap-[16px] rounded-[8px] p-[16px] xl:h-[176px] xl:w-[317px]">
 						<h4 className="text-grey text-center">
-							Creating Streamlined Safeguarding Processes with OneRen
+							What are your safeguarding responsibilities and how can you manage
+							them?
 						</h4>
 						<a
 							href="/"
@@ -53,13 +54,13 @@ const Update = () => {
 				</div>
 				<div className="relative h-[300px] w-[300px] xl:h-[366px] xl:w-[368px]">
 					<img
-						src="/update/image-1.png"
+						src="/update/image-3.png"
 						alt="woman with laptop"
 						className="w-full rounded-[8px] xl:h-[286px] xl:w-[368px]"
 					/>
 					<div className="bg-silver shadow-8px absolute bottom-0 left-[25px] flex w-[250px] flex-col gap-[16px] rounded-[8px] p-[16px] xl:h-[176px] xl:w-[317px]">
-						<h4 className="text-grey text-center">
-							Creating Streamlined Safeguarding Processes with OneRen
+						<h4 className="text-grey px-[10px] text-center">
+							Revamping the Membership Model with Triathlon Australia
 						</h4>
 						<a
 							href="/"
