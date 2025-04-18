@@ -14,7 +14,7 @@ const Header = () => {
 					<img src="/logo.svg" className="h-[24px]" alt="Logo" />
 				</a>
 				<div
-					className={`${showMobileNavbar ? "visible" : "invisible"} fixed top-0 left-0 z-10 flex h-screen w-screen gap-[50px] bg-black/50 xl:visible xl:relative xl:top-[unset] xl:left-[unset] xl:h-max xl:w-max xl:bg-[unset]`}
+					className={`${showMobileNavbar ? "visible" : "invisible"} fixed top-0 left-0 z-10 flex h-dvh w-screen gap-[50px] bg-black/50 xl:visible xl:relative xl:top-[unset] xl:left-[unset] xl:h-max xl:w-max xl:bg-[unset]`}
 					onClick={() => setShowMobileNavbar(false)}
 				>
 					<nav
@@ -22,7 +22,7 @@ const Header = () => {
 							event.stopPropagation();
 						}}
 						className={
-							"bg-silver fixed flex h-screen w-[280px] flex-col overflow-x-hidden overflow-y-auto px-[8px] py-[8px] pb-[20px] duration-75 xl:relative xl:h-max xl:w-max xl:flex-row xl:bg-[unset] xl:p-0" +
+							"bg-silver fixed flex h-dvh w-[280px] flex-col overflow-x-hidden overflow-y-auto px-[8px] py-[8px] pb-[20px] duration-75 xl:relative xl:h-max xl:w-max xl:flex-row xl:bg-[unset] xl:p-0" +
 							(showMobileNavbar ? " right-0" : " right-[-280px] xl:right-0")
 						}
 					>
