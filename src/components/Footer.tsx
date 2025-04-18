@@ -89,18 +89,18 @@ const Footer = () => {
 					</div>
 					<div className="flex w-[255px] flex-col gap-[24px]">
 						<h4 className="text-white">Stay up to date</h4>
-						<div className="hu flex h-[40px] w-full items-center rounded-[8px] bg-white/20">
+						<div className="flex h-[40px] w-full items-center rounded-[8px] bg-white/20">
 							<input
 								type="email"
 								name="email"
 								placeholder="Your email address"
-								className="h-[40px] px-[16px] outline-none"
+								className="h-[40px] w-full pl-[16px] outline-none"
 							/>
 							<button
 								type="button"
-								className="flex h-[40px] w-[40px] items-center justify-center"
+								className="grid h-[40px] place-content-center px-[8px]"
 							>
-								<SendIcon />
+								<SendIcon size={18} />
 							</button>
 						</div>
 					</div>
