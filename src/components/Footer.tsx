@@ -98,7 +98,7 @@ const Footer = () => {
 							/>
 							<button
 								type="button"
-								className="grid h-[40px] w-[40px] place-content-center"
+								className="flex h-[40px] w-[40px] items-center justify-center"
 							>
 								<SendIcon />
 							</button>

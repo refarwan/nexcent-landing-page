@@ -38,7 +38,7 @@ const Hero = () => {
 					<div
 						key={index}
 						id="corusel"
-						className="flex h-auto w-full flex-shrink-0 flex-col items-center justify-center px-[16px] sm:flex-row sm:gap-[20px] sm:px-[50px] xl:gap-[144px] xl:px-[144px] xl:py-[96px]"
+						className="flex h-auto w-full flex-shrink-0 flex-col-reverse items-center justify-center px-[16px] sm:flex-row sm:gap-[20px] sm:px-[50px] xl:gap-[144px] xl:px-[144px] xl:py-[96px]"
 					>
 						<div className="flex flex-col items-center gap-[16px] sm:items-start xl:gap-[32px]">
 							<div className="flex flex-col gap-[16px]">
@@ -61,7 +61,7 @@ const Hero = () => {
 						</div>
 						<img
 							src="Illustration.svg"
-							className="hidden w-screen sm:block sm:w-[300px] xl:w-[391px]"
+							className="w-[200px] sm:block sm:w-[300px] xl:w-[391px]"
 							alt={`Illustration ${index + 1}`}
 						/>
 					</div>
